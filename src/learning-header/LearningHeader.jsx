@@ -38,7 +38,7 @@ const LearningHeader = ({
       alt={getConfig().SITE_NAME}
     />
   );
-
+    console.log("Header")
   return (
     <header className="learning-header">
       <a className="sr-only sr-only-focusable" href="#main-content">{intl.formatMessage(messages.skipNavLink)}</a>

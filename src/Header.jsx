@@ -99,6 +99,7 @@ const Header = ({ intl }) => {
     userMenu: getConfig().AUTHN_MINIMAL_HEADER ? [] : userMenu,
     loggedOutItems: getConfig().AUTHN_MINIMAL_HEADER ? [] : loggedOutItems,
   };
+  console.log("Header2")
 
   return (
     <>
